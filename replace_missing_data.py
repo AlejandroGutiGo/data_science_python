@@ -1,4 +1,4 @@
-mport pandas as pd
+import pandas as pd
 import numpy as np
 path="https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data"
 df = pd.read_csv(path,header=None)
