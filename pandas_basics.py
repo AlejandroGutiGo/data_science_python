@@ -10,3 +10,4 @@ df.columns=headers
 df.dtypes
 df.info
 df[['price','bore']].describe(include= "all")
+ 
