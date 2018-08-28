@@ -34,4 +34,4 @@ bins = np.arange(min(df["horsepower"]), max(df["horsepower"]), binwidth)
 bins
 group_names = ['Low', 'Medium', 'High']
 df['horsepower-binned'] = pd.cut(df['horsepower'], bins, labels=group_names,include_lowest=True )
-df[['horsepower','horsepower-binned']].head(20) 
+df[['horsepower','horsepower-binned']].head(20)  
