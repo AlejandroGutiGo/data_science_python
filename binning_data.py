@@ -12,7 +12,7 @@ df.replace("?", np.nan, inplace = True)
 df.head(5)
 missing_data = df.isnull()
 missing_data.head(10)
-for column in missing_data.columns.values.tolist():
+for column in missing_data.columns.values.tolist(): 
     print(column)
     print (missing_data[column].value_counts())
     print("")    
